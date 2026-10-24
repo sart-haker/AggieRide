@@ -1,5 +1,5 @@
 # AggieRide
-## A rideshare app for students, by students
+A rideshare app for students, by students
 
 ## Tech Stack
 
