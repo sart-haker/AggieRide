@@ -7,7 +7,7 @@ A rideshare app for students, by students
 
 | Layer | Technology |
 |-------|------------|
-| Framework | React Native + TypeScript (Expo) or Flutter |
+| Framework | React Native + TypeScript (Expo) |
 | Maps SDK | Google Maps SDK for Android/iOS |
 | Push Notifications | Firebase Cloud Messaging (FCM) / APNs |
 
@@ -16,7 +16,7 @@ A rideshare app for students, by students
 | Layer | Technology |
 |-------|------------|
 | API Framework | Node.js + TypeScript with NestJS |
-| Protocol | REST (or GraphQL) |
+| Protocol | REST |
 | Real-time | WebSockets via Socket.IO |
 
 ### Authentication
