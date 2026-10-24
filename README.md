@@ -9,7 +9,7 @@ A rideshare app for students, by students
 |-------|------------|
 | Framework | React Native + TypeScript (Expo) |
 | Maps SDK | Google Maps SDK for Android/iOS |
-| Push Notifications | Firebase Cloud Messaging (FCM) / APNs |
+| Push Notifications | Firebase Cloud Messaging for Android, Apple Push Notifications for iOS |
 
 ### Backend
 
