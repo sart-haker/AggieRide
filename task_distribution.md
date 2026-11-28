@@ -4,7 +4,7 @@
 
 | Member | Ownership | Tasks | Languages & Tools |
 |---|---|---|---|
-| **Sanjana** | Passenger UI/UX + shared features | Authentication screens, ride search and filters, ride detail screens, route/map previews, seat booking, booking status, passenger trip history, notification UI, payment/payout onboarding screens, shared UI and navigation components | TypeScript, TSX, React Native, Expo, Expo Router, Google Maps SDK, Figma |
+| **Sarthak** | Passenger UI/UX + shared features | Authentication screens, ride search and filters, ride detail screens, route/map previews, seat booking, booking status, passenger trip history, notification UI, payment/payout onboarding screens, shared UI and navigation components | TypeScript, TSX, React Native, Expo, Expo Router, Google Maps SDK, Figma |
 | **Hadi** | Driver UI/UX | ride creation, driver dashboard, reservation management | TypeScript, TSX, React Native, Expo, Expo Router, Figma |
 
 
@@ -27,28 +27,25 @@
 
 | App screen / Feature | Frontend owner | Backend owner(s) | Key Behavior |
 |---|---|---|---|
-| Login / Registration | Sanjana | Alex | Student verification, login, session/token handling |
-| Home / Dashboard | Sanjana | Aditya | User landing screen with links to relevant |
+| Login / Registration | Sarthak | Alex | Student verification, login, session/token handling |
+| Home / Dashboard | Sarthak | Aditya | User landing screen with links to relevant |
 | Profile | Hadi | Josh | View/update profile and user information |
 | Post/Edit a ride | Hadi | Hadi | Create, update, cancel ride listings |
-| Search rides | Sanjana | William | Query rides by location, date, seats, etc. |
-| Ride details & map | Sanjana | Haasika | Retrieve ride details, route preview, available seats |
-| Seat booking & cancellation | Sanjana | Felipe | Reserve/cancel seats; prevent overbooking |
-| My Trips (rider) | Sanjana | Felipe | View upcoming and past rides |
+| Search rides | Sarthak | William | Query rides by location, date, seats, etc. |
+| Ride details & map | Sarthak | Haasika | Retrieve ride details, route preview, available seats |
+| Seat booking & cancellation | Sarthak | Felipe | Reserve/cancel seats; prevent overbooking |
+| My Trips (rider) | Sarthak | Felipe | View upcoming and past rides |
 | Driver dashboard | Hadi | Himesh | View reservations and receive booking updates |
-| Payment checkout | Sanjana | Aditya | Initiate/confirm payment and show transaction state |
-| Notifications | Sanjana | Josh | Push notifications, reminders, and ride status updates |
+| Payment checkout | Sarthak | Aditya | Initiate/confirm payment and show transaction state |
+| Notifications | Sarthak | Josh | Push notifications, reminders, and ride status updates |
 | API client & end-to-end integration, database schema | Sarthak | Sarthak, Iaro | OpenAPI contracts, generated client, database setup |
 
 ## Feature Specifications
 
 ## 1. Login / Registration
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Sanjana |
-| Backend owner | Alex |
-| Core behavior | Student verification, login, session/token handling |
+Frontend owner - Sarthak 
+Backend owner - Alex 
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -61,11 +58,8 @@
 
 ## 2. Home / Dashboard
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Sanjana |
-| Backend owner | Aditya |
-| Core behavior | User landing screen with links to relevant ride features |
+Frontend owner - Sarthak 
+Backend owner - Aditya
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -78,11 +72,8 @@
 
 ## 3. Profile
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Hadi |
-| Backend owner | Josh |
-| Core behavior | View/update profile and user information |
+Frontend owner - Hadi 
+Backend owner - Josh
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -94,11 +85,8 @@
 
 ## 4. Post / Edit a Ride
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Hadi |
-| Backend owner | Hadi |
-| Core behavior | Create, update, and cancel ride listings |
+Frontend owner - Hadi
+Backend owner - Hadi
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -113,11 +101,8 @@
 
 ## 5. Search Rides
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Sanjana |
-| Backend owner | William |
-| Core behavior | Query rides by location, date, seats, and other filters |
+Frontend owner - Sarthak
+Backend owner - William 
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -131,11 +116,8 @@
 
 ## 6. Ride Details & Map
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Sanjana |
-| Backend owner | Haasika |
-| Core behavior | Retrieve ride details, route preview, and available seats |
+Frontend owner - Sarthak
+Backend owner - Haasika
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -148,11 +130,8 @@
 
 ## 7. Seat Booking & Cancellation
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Sanjana |
-| Backend owner | Felipe |
-| Core behavior | Reserve/cancel seats; prevent overbooking |
+Frontend owner - Sarthak
+Backend owner - Felipe 
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -166,11 +145,8 @@
 
 ## 8. My Trips (Rider)
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Sanjana |
-| Backend owner | Felipe |
-| Core behavior | View upcoming and past rides |
+Frontend owner - Sarthak
+Backend owner - Felipe 
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -183,11 +159,8 @@
 
 ## 9. Driver Dashboard
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Hadi |
-| Backend owner | Himesh |
-| Core behavior | View reservations and receive booking updates |
+Frontend owner - Hadi
+Backend owner - Himesh 
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -200,11 +173,8 @@
 
 ## 10. Payment Checkout
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Sanjana |
-| Backend owner | Aditya |
-| Core behavior | Initiate/confirm payment and show transaction state |
+Frontend owner - Sarthak
+Backend owner - Aditya
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
@@ -217,11 +187,8 @@
 
 ## 11. Notifications
 
-| Field | Specification |
-|---|---|
-| Frontend owner | Sanjana |
-| Backend owner | Josh |
-| Core behavior | Push notifications, reminders, and ride status updates |
+Frontend owner - Sarthak 
+Backend owner - Josh
 
 | UI element / Action | Expected behavior | Proposed API / Integration | States / Validation |
 |---|---|---|---|
